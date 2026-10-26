@@ -26,5 +26,10 @@
   "rights": "All rights reserved",
   "candidate_v0_4_zip_sha256": "d7ef7014a7e6fbf25d39b0623b52ab4ef1dc1317747391a09b51452688ee9d82",
   "github_url": "https://github.com/yonezaemon1-hub/no41-one-leak-cycle-propagation",
-  "contact": "yonezaemon1+research@gmail.com"
+  "contact": "yonezaemon1+research@gmail.com",
+  "publication_state": "PUBLIC",
+  "github_release_url": "https://github.com/yonezaemon1-hub/no41-one-leak-cycle-propagation/releases/tag/v1.0",
+  "zenodo_record_url": "https://zenodo.org/records/23665101",
+  "zenodo_doi": "10.5281/zenodo.23665101",
+  "publication_receipt": "publication/PUBLICATION_RECEIPT.json"
 }

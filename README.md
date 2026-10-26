@@ -33,6 +33,8 @@ comparison PARTIAL. An elementary derivation is not evidence of prior publicatio
 
 ## Download
 
+- [Zenodo record / DOI 10.5281/zenodo.23665101](https://zenodo.org/records/23665101)
+- [GitHub Release v1.0](https://github.com/yonezaemon1-hub/no41-one-leak-cycle-propagation/releases/tag/v1.0)
 - [Paper PDF](paper/No41_One_Leak_Cycle_v1_0.pdf)
 - [Evidence ZIP](artifacts/No41_Evidence_v1_0_20261026.zip)
 - [LaTeX source](paper/No41_One_Leak_Cycle_v1_0.tex)
@@ -86,7 +88,9 @@ No human peer review is claimed. Finite verification is not a proof for all n.
 
 GitHub: https://github.com/yonezaemon1-hub/no41-one-leak-cycle-propagation
 
-The author authorized publication as an unrefereed preprint on 26 October 2026.
+Published as an unrefereed preprint on GitHub and Zenodo on 26 October 2026.
+Zenodo DOI: 10.5281/zenodo.23665101. [Publication receipt](publication/PUBLICATION_RECEIPT.json).
+The PDF, evidence ZIP and v1.0 tag remain the original publication bytes.
 Rights: All rights reserved. Third-party full papers and page images are not
 redistributed in this evidence package.
 

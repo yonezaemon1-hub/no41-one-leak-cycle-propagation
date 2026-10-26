@@ -1,0 +1,42 @@
+{
+  "paper_number": 41,
+  "date": "2026-10-26",
+  "version": "1.0",
+  "publication_state": "PUBLIC",
+  "github_release_url": "https://github.com/yonezaemon1-hub/no41-one-leak-cycle-propagation/releases/tag/v1.0",
+  "github_release_published_at": "2026-10-26T11:39:51Z",
+  "github_release_commit": "13d18bdea69eade817920a575451c6d931e5f1d4",
+  "github_release_tree": "3001a432c6635138194eca1ee63497508e58bd01",
+  "github_release_file_count": 38,
+  "github_release_all_blob_hashes_matched": true,
+  "github_direct_redownload": "NOT_COMPLETED; public asset SHA-256 digests and repository blob hashes were verified",
+  "zenodo_record_url": "https://zenodo.org/records/23665101",
+  "zenodo_doi": "10.5281/zenodo.23665101",
+  "zenodo_concept_doi": "10.5281/zenodo.23665100",
+  "zenodo_publication_verified_in_live_record": true,
+  "assets": [
+    {
+      "name": "No41_Evidence_v1_0_20261026.zip",
+      "bytes": 88990,
+      "sha256": "3a739b47dd32a15f36daec3117c19caf419ba039205b2a2bc6fc7b3c795c47fa",
+      "zenodo_md5": "3c4c14c172b65a44cf906c27f66df826",
+      "github_asset_sha256_matched": true,
+      "zenodo_public_download_sha256_matched": true
+    },
+    {
+      "name": "No41_One_Leak_Cycle_v1_0.pdf",
+      "bytes": 286908,
+      "sha256": "05fa84279600b857d7a219b70e5c43d06be92c8a84cc1c1cf7e2f7eb3caca04c",
+      "zenodo_md5": "ecf8eff2687c674118833b0e40595706",
+      "github_asset_sha256_matched": true,
+      "zenodo_public_download_sha256_matched": true
+    }
+  ],
+  "rights": "All rights reserved",
+  "historical_novelty": "INCONCLUSIVE",
+  "references": "PARTIAL",
+  "human_peer_review": "NOT_CLAIMED",
+  "independent_third_party_audit": "NOT_CLAIMED",
+  "publication_added_dynamics_evidence": false,
+  "notes": "DOI and publication receipt are a metadata follow-up on main. The v1.0 release tag, PDF, evidence ZIP and frozen v0.4 snapshot are unchanged."
+}
