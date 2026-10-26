@@ -1,0 +1,39 @@
+{
+  "received_on": "2026-10-26",
+  "source": "user-supplied v0.3 audit report",
+  "target_package": "No41_Leaky_Cycle_Candidate_v0_3_20261026.zip",
+  "target_sha256": "b17d7c528eaa377c8ce5b58726a38bb9cff3c0424df289055f044db68ae95728",
+  "reported_status": {
+    "MODEL": "PASS_UNCHANGED",
+    "PROOF": "PASS",
+    "COMPUTATION": "PASS",
+    "REFERENCES": "PARTIAL",
+    "NOVELTY": "INCONCLUSIVE"
+  },
+  "reported_python_rerun": {
+    "max_n": 16,
+    "initial_sets": 131064,
+    "set_leak_scenarios": 1966072,
+    "size_optima": 147,
+    "deadline_optima": 147
+  },
+  "reported_count_label_correction": {
+    "status": "EXPLICIT_CORRECTION_RECEIVED",
+    "n_3_through_22": {
+      "initial_sets": 8388600,
+      "set_leak_scenarios": 176160760
+    },
+    "n_21_22_only": {
+      "initial_sets": 6291456,
+      "set_leak_scenarios": 136314880
+    }
+  },
+  "reporter_describes_audit_as": "OWN_AUDIT_NOT_INDEPENDENT_THIRD_PARTY_CONFIRMATION",
+  "reviewer_identity_authenticated": false,
+  "c_source_and_raw_logs_received": false,
+  "human_peer_review_claimed": false,
+  "citation_pages_and_hashes_rechecked_by_reporter": false,
+  "author_source_location_ledger": "evidence/citation_checks.json",
+  "new_dynamics_run_performed_for_revision": false,
+  "supplied_report_file_sha256": "0a076c4980e36cfa0c6dee6ae3e71dbcc16295a3d4e89f08b4d7e2225931d257"
+}

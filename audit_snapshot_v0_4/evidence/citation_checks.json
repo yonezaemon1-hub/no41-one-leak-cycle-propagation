@@ -1,0 +1,188 @@
+{
+  "checked_on": "2026-10-26",
+  "status": "PASS_SELECTED_LOCATIONS_AUTHOR_SIDE",
+  "method": "Local PDF text extraction plus rendered-page visual inspection; text-only exception marked per entry",
+  "page_number_convention": "PDF page means 1-based viewer position; printed page is the number on the paper",
+  "extraction_library": "pypdf 6.10.0",
+  "normalization": "Python: single ASCII space joined over text.split(); used only for excerpt matching and page-text hashes",
+  "third_party_full_texts_or_page_images_redistributed": false,
+  "global_literature_comparison": "PARTIAL",
+  "historical_novelty": "INCONCLUSIVE",
+  "sources": [
+    {
+      "source_id": "S1_final",
+      "url": "https://ajc.maths.uq.edu.au/pdf/88/ajc_v88_p308.pdf",
+      "pdf_filename": "alameda_dillman_kenter_2024.pdf",
+      "page_count": 19,
+      "bytes": 385239,
+      "sha256": "01fe9fd1469573417fdfe8ea243cd2546ed08d78eba54de668a122da89372a06",
+      "checks": [
+        {
+          "check_id": "AJC_PATH",
+          "pdf_page_1_based": 5,
+          "printed_page": "312",
+          "anchor": "Proposition 3.1",
+          "short_quote": "For the path on n vertices",
+          "short_quote_whitespace_normalized": true,
+          "selected_page_render_visually_inspected": true,
+          "anchor_and_quote_match": true,
+          "normalized_page_text_sha256": "2cfd24cbe3b0ce1434ea3faf9c2b4c854c2c6f65fbfb95951898d7ac8f14b062",
+          "supports_and_limits": "パスの最小1-leaky集合が両端であることを証明。No.41の時間式は記載した定理ではない。"
+        },
+        {
+          "check_id": "AJC_TREE",
+          "pdf_page_1_based": 6,
+          "printed_page": "313",
+          "anchor": "Theorem 3.3",
+          "short_quote": "the optimal ℓ-leaky forcing set",
+          "short_quote_whitespace_normalized": true,
+          "selected_page_render_visually_inspected": true,
+          "anchor_and_quote_match": true,
+          "normalized_page_text_sha256": "28764fc1eb03f45a7bdf18ebb4d0165ddce3905ec7e0f4db33c53ae90d6c263b",
+          "supports_and_limits": "木の低次数頂点集合の定理を、2022年論文Theorem 4.4として引用。"
+        }
+      ],
+      "short_quote_word_count": 11
+    },
+    {
+      "source_id": "S2",
+      "url": "https://arxiv.org/pdf/2008.06552v1",
+      "pdf_filename": "alameda_resilience_2008_06552v1.pdf",
+      "page_count": 21,
+      "bytes": 433699,
+      "sha256": "661259a4550ea26e1f8ac973aec047170a790363dca4272dc35e0f3214b05941",
+      "checks": [
+        {
+          "check_id": "RESILIENCE_TREE",
+          "pdf_page_1_based": 13,
+          "printed_page": "13",
+          "anchor": "Theorem 4.4",
+          "short_quote": "If T is a tree and B is the set of vertices in T",
+          "short_quote_whitespace_normalized": true,
+          "selected_page_render_visually_inspected": true,
+          "anchor_and_quote_match": true,
+          "normalized_page_text_sha256": "6019de76025f57e4c05f6d42b1976aa18804bb9d2ebde70dc439b098e67a93be",
+          "supports_and_limits": "ℓ=1のパスへの特殊化がK1。到達可能性の定理であり、時間式Aを直接記載したものではない。"
+        }
+      ],
+      "short_quote_word_count": 14
+    },
+    {
+      "source_id": "S14",
+      "url": "https://arxiv.org/pdf/1410.4191v1",
+      "pdf_filename": "hogben_propagation_1410_4191v1.pdf",
+      "page_count": 17,
+      "bytes": 460276,
+      "sha256": "63cb5e2d5578b726e110867f2fecfcf32cba5d75ab6f04418849af1b55a7124e",
+      "checks": [
+        {
+          "check_id": "HOGBEN_BOUND",
+          "pdf_page_1_based": 3,
+          "printed_page": "3",
+          "anchor": "Remark 1.8",
+          "short_quote": "because at least one force must be performed at each time step",
+          "short_quote_whitespace_normalized": true,
+          "selected_page_render_visually_inspected": true,
+          "anchor_and_quote_match": true,
+          "normalized_page_text_sha256": "61e949bbbde88819919adb50f9adc6b6707d75d7ff4848d6bf2f347830157f56",
+          "supports_and_limits": "通常zero forcingのPT(G)<=|G|-Z(G)とその計数理由。固定leak・非最小初期集合への計数適用は作者側の補足。"
+        }
+      ],
+      "short_quote_word_count": 12
+    },
+    {
+      "source_id": "S10",
+      "url": "https://ajc.maths.uq.edu.au/pdf/57/ajc_v57_p065.pdf",
+      "pdf_filename": "butler_young_2013.pdf",
+      "page_count": 7,
+      "bytes": 104569,
+      "sha256": "f90ebd4876ae3bbcbde3cf326606a8b2b89cc6a6cb6df2fe151932be4586fe18",
+      "checks": [
+        {
+          "check_id": "BUTLER_CAPACITY",
+          "pdf_page_1_based": 2,
+          "printed_page": "66",
+          "anchor": "2 Balancing the initial set with propagation time",
+          "short_quote": "Balancing the initial set with propagation time",
+          "short_quote_whitespace_normalized": true,
+          "selected_page_render_visually_inspected": true,
+          "anchor_and_quote_match": true,
+          "normalized_page_text_sha256": "5ba7e18fce0f9b8cc2d196d6f6e27af7f36bbd14a0f351eca49aaf360a810626",
+          "supports_and_limits": "§2開始、forcing chainの容量 |S|(p(G;S)+1)>=n。"
+        },
+        {
+          "check_id": "BUTLER_LAYOUT",
+          "pdf_page_1_based": 3,
+          "printed_page": "67",
+          "anchor": "Figure 1",
+          "short_quote": "Snaking a path into a box",
+          "short_quote_whitespace_normalized": true,
+          "selected_page_render_visually_inspected": true,
+          "anchor_and_quote_match": true,
+          "normalized_page_text_sha256": "a2698fa676b26905e13b42b7f9b37b7d2a1f7e533b332688b1fa63362064ced1",
+          "supports_and_limits": "パスの蛇行配置と通常throttlingの等号構成。"
+        },
+        {
+          "check_id": "BUTLER_WEIGHTS",
+          "pdf_page_1_based": 4,
+          "printed_page": "68",
+          "anchor": "Theorem 2",
+          "short_quote": "relative costs of the initial set",
+          "short_quote_whitespace_normalized": true,
+          "selected_page_render_visually_inspected": true,
+          "anchor_and_quote_match": true,
+          "normalized_page_text_sha256": "a9ebe93c2ac1f74d944dbd422e1e1bae65ece3b637c0705752f1807a6d84329d",
+          "supports_and_limits": "重み付き目的a|S|+b p(G;S)を扱う。No.41の根号式をそのまま掲載したものではない。"
+        }
+      ],
+      "short_quote_word_count": 19
+    },
+    {
+      "source_id": "S6",
+      "url": "https://arxiv.org/pdf/1807.09404v1",
+      "pdf_filename": "carlson_throttling_2018.pdf",
+      "page_count": 20,
+      "bytes": 329805,
+      "sha256": "c27b4437b3ffe8563dd2651ab32ad311f75256d3601394685e29337f639d1f90",
+      "checks": [
+        {
+          "check_id": "CARLSON_WEIGHTED",
+          "pdf_page_1_based": 17,
+          "printed_page": "17",
+          "anchor": "6 Weighted positive semideﬁnite throttling",
+          "short_quote": null,
+          "short_quote_whitespace_normalized": false,
+          "selected_page_render_visually_inspected": false,
+          "anchor_and_quote_match": true,
+          "normalized_page_text_sha256": "599a2ef5dc3a1fb9b4d3470a30f9871ea72b68b5b1adea6df476db096db8b241",
+          "supports_and_limits": "重み付きPSD throttlingの節。抽出本文で確認。"
+        },
+        {
+          "check_id": "CARLSON_CYCLE",
+          "pdf_page_1_based": 19,
+          "printed_page": "19",
+          "anchor": "Theorem 7.1",
+          "short_quote": "Standard throttling for cycles",
+          "short_quote_whitespace_normalized": true,
+          "selected_page_render_visually_inspected": true,
+          "anchor_and_quote_match": true,
+          "normalized_page_text_sha256": "eb3f606e26a33050af0d2615b8822e7b02bcd5c59f8305da9c1dc75224e8b869",
+          "supports_and_limits": "通常zero forcingのcycle throttling。leak付き時間式の定理ではない。"
+        },
+        {
+          "check_id": "CARLSON_LEAF",
+          "pdf_page_1_based": 19,
+          "printed_page": "19",
+          "anchor": "Lemma 7.2",
+          "short_quote": null,
+          "short_quote_whitespace_normalized": false,
+          "selected_page_render_visually_inspected": true,
+          "anchor_and_quote_match": true,
+          "normalized_page_text_sha256": "eb3f606e26a33050af0d2615b8822e7b02bcd5c59f8305da9c1dc75224e8b869",
+          "supports_and_limits": "通常throttlingで木の葉を除く不等式。同じPDF頁にある。"
+        }
+      ],
+      "short_quote_word_count": 4
+    }
+  ]
+}

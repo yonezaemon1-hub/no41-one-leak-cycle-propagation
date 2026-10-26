@@ -1,0 +1,43 @@
+{
+  "basis": "Candidate v0.4 and KNOWN_FACT_REPROOF_JA.md",
+  "proof_core_sections_1_to_5_sha256": "8243568e018f08551d235b5021f94d46674fa42dd45989cb97b4eba39b02b522",
+  "reproof_core_sections_2_to_7_sha256": "dc3f1347df4256f944f3c928958882973f820a2de429a1e41c2c91addc7084b6",
+  "public_paper_sections": {
+    "Theorem A": "Section 3; same exact fixed-set time, O1 and one-front lower witness",
+    "Theorem B": "Section 4; same budget-time frontier and balanced construction",
+    "Corollary B2": "Section 4; same deadline formula and boundary cases",
+    "Theorem C": "Section 5; same integer capacity maximum and root formula"
+  },
+  "presentation_changes": "LaTeX typesetting, English integration of audited reproof, citations, release/provenance text",
+  "new_mathematical_claims": false,
+  "new_dynamics_run": false,
+  "frozen_snapshot_files_sha256": {
+    "NOVELTY_SEARCH_JA.md": "4c9ca789cf80d86d019fc5598154f32ea1df55573511d3114d90fb01ed5a4ed8",
+    "AUDIT_V03_INTEGRATION_JA.md": "39a01a379f23bcc4de10c55038d94f22a74c9e342abe518c0ecd40d0d35b613a",
+    "sources.json": "3f2729b440cb0f5ce381c2fb7d8c46983021bf9d5657af4734ff3f1ca6398e65",
+    "LICENSE.txt": "a4f3f4ae648df6c2197d1e719d1a344735121b58eca39e3a9ac4d190fd76ac5a",
+    "CHANGELOG.md": "c2f99df7db80ff3d9d53d297de6e95275a6d33bf7adaaa90b827d2ab13fe98ac",
+    "check_hashes.py": "3e098e1ea8d6fb31b05643cf6d11f3d951b83c5ea8e7c0d4632e79d62265b115",
+    "STATUS.json": "515bf68140becb3b0e92371d73e91e92f1f0edc0c3d53754df86b62934c2c7a6",
+    "PRIOR_ART.md": "2b692e810e7eca7014da8e692a673f0a2f6475d4ff26ba6cca39eaa884226696",
+    "AUDIT_REPROOF_INTEGRATION_JA.md": "b684eed7cf304dd5517a106c1dd4cc0ec060ff399f682c05c39afe858358b1ed",
+    "KNOWN_FACT_REPROOF_JA.md": "06c1ec31bcb440ec2490c099b72e4d84d6daf7f9d3c3d419febf59f6866c4e8c",
+    "AUDIT_REQUEST.md": "7f8c282e27dd9596e394069e52c0b0a00defb945d09bf53ab58119485609147c",
+    "AUDIT_REPROOF_SUPPLIED_JA.md": "ea61a9fde0bcc902d21a02da3e3635c114ae4960f612813590e6d7033b2629d1",
+    "AUDIT_V03_SUPPLIED_JA.md": "0a076c4980e36cfa0c6dee6ae3e71dbcc16295a3d4e89f08b4d7e2225931d257",
+    "AUDIT_REPORT_SUPPLIED_JA.md": "f50b66dc7809252e9bc1987c993a6c189d7b90f334dabdc586b51f1daccbb76b",
+    "SUMMARY_JA.md": "855f66d117ec7ffd31b1b81bb6731ccd63ce57d03d5309d2afb734412d733423",
+    "SHA256SUMS": "24c3aa47f78e2d1bc6e573618d648429f6bef78e0f4177f83c750e7302f2fa28",
+    "verify.py": "295574144de41d039028afebaa3a8d69ab3513de8885162f5e0fac18b92e86e1",
+    "PROOF.md": "f9ea4dd3292ffc1bfddbfd1ba648520a273d9ca8ec4f09db0b0976dff5c54d17",
+    "AUDIT_INTEGRATION_JA.md": "3b6235705323dea2054e2795cff896d6207998d8ce2bc6b4825096744d67f5f4",
+    "CITATION_CHECK_JA.md": "a346130162d7a316850eec73a87ff2aa994beade70bba14db0f07a29ea4b2e3a",
+    "README.md": "0c849120072f5b821ea40f55a2cd0eee12247d87865bbdde000b6300dd6d7c99",
+    "evidence/revision_validation.json": "d01e90fad4cd27d190e0ad71c2666279a0a9067681564ccb6ba89b742be48441",
+    "evidence/citation_checks.json": "7b4fd3f8a87a4524c4b2b70dc03a026be6bbec411c3e1d12562c7f00c2f30e00",
+    "evidence/reproof_audit_receipt.json": "ad240c13c4e8dbeed73a343d8bd640fecd4cd43fbed835fcf80e16d65a4815eb",
+    "evidence/verification.json": "1123d418cdc9fe70ba3855cb29faa78df8ce1d80c5e925b4ef48aac9eb13f18e",
+    "evidence/audit_receipt.json": "98552701e98ef303541b06c7f418651e67e7beae26938b206bb985e9e1963717",
+    "evidence/v03_audit_receipt.json": "b2ad7ee1df660a350b77e9ac20c1c3a609851b35731d18c8244801503623cc29"
+  }
+}

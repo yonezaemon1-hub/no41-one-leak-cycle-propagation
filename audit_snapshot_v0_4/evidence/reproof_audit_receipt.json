@@ -1,0 +1,24 @@
+{
+  "received_on": "2026-10-26",
+  "source": "user-supplied second audit report in conversation",
+  "audited_document": "No41_Known_Result_Derivation_20261026.md",
+  "audited_document_sha256": "8eba2290d95546e5638da71518603a4c9874bf96b9ee088de92ad9b3027d350d",
+  "reported_math": "PASS_NO_DEFECT_FOUND_WITHIN_REVIEW_SCOPE",
+  "reported_numerics": "C implementation agrees through n=22; source and raw logs not received here",
+  "reported_citations_verified": [
+    "Alameda Theorem 4.4 statement and model",
+    "Dillman-Kenter arXiv path/tree locations"
+  ],
+  "reported_citations_unverified": [
+    "AJC final numbering/pages",
+    "Hogben Remark 1.8",
+    "Butler-Young pp.66-68",
+    "PDF page 13"
+  ],
+  "response": "Author-side selected-location checks recorded in evidence/citation_checks.json",
+  "novelty": "INCONCLUSIVE",
+  "human_peer_review_claimed": false,
+  "reviewer_identity_authenticated": false,
+  "c_source_and_raw_logs_received": false,
+  "supplied_report_file_sha256": "ea61a9fde0bcc902d21a02da3e3635c114ae4960f612813590e6d7033b2629d1"
+}

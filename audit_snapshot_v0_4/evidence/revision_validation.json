@@ -1,0 +1,24 @@
+{
+  "revision": "0.4",
+  "date": "2026-10-26",
+  "status": "PASS_RECORD_ONLY_REVISION",
+  "unchanged_v0_3_files_sha256": {
+    "PROOF.md": "f9ea4dd3292ffc1bfddbfd1ba648520a273d9ca8ec4f09db0b0976dff5c54d17",
+    "KNOWN_FACT_REPROOF_JA.md": "06c1ec31bcb440ec2490c099b72e4d84d6daf7f9d3c3d419febf59f6866c4e8c",
+    "CITATION_CHECK_JA.md": "a346130162d7a316850eec73a87ff2aa994beade70bba14db0f07a29ea4b2e3a",
+    "evidence/citation_checks.json": "7b4fd3f8a87a4524c4b2b70dc03a026be6bbec411c3e1d12562c7f00c2f30e00",
+    "sources.json": "3f2729b440cb0f5ce381c2fb7d8c46983021bf9d5657af4734ff3f1ca6398e65",
+    "verify.py": "295574144de41d039028afebaa3a8d69ab3513de8885162f5e0fac18b92e86e1",
+    "check_hashes.py": "3e098e1ea8d6fb31b05643cf6d11f3d951b83c5ea8e7c0d4632e79d62265b115",
+    "evidence/verification.json": "1123d418cdc9fe70ba3855cb29faa78df8ce1d80c5e925b4ef48aac9eb13f18e"
+  },
+  "count_label_issue": "RESOLVED_BY_REPORTER_CORRECTION",
+  "new_dynamics_runs": 0,
+  "independent_third_party_audit_claimed": false,
+  "human_peer_review_claimed": false,
+  "c_source_and_raw_logs_received": false,
+  "source_ledger_rechecked_this_revision": false,
+  "historical_novelty": "INCONCLUSIVE",
+  "publication": "HOLD",
+  "remaining_validation": "Manifest and ZIP integrity checked after all report files are written"
+}

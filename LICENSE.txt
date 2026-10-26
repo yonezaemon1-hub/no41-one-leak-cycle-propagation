@@ -1,0 +1,10 @@
+Copyright (c) 2026 Ryutaro Yonezu. All rights reserved.
+
+This research note and its author-created text, code and evidence are provided
+for inspection and verification. No general permission to reproduce, redistribute,
+modify or use these materials commercially is granted.
+
+Third-party works cited remain subject to their respective rights and licenses.
+Their full texts are not redistributed here.
+
+Research inquiries: yonezaemon1+research@gmail.com

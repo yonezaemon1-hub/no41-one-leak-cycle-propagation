@@ -1,0 +1,82 @@
+{
+  "received_on": "2026-10-26",
+  "source": "user-supplied audit text in conversation",
+  "target_package": "No41_Leaky_Cycle_Candidate_v0_1_20261026.zip",
+  "target_sha256": "69050b95e0249526f66111c8f035e2e3531d86ed144c10781c5eb12e5c605f62",
+  "reported_status": {
+    "MODEL": "PASS",
+    "PROOF": "PASS_WITHIN_REVIEW_SCOPE_NOT_HUMAN_PEER_REVIEW",
+    "COMPUTATION": "PASS_THROUGH_N_22",
+    "REFERENCES": "PARTIAL",
+    "NOVELTY": "INCONCLUSIVE"
+  },
+  "reported_python_rerun": {
+    "min_n": 3,
+    "max_n": 16,
+    "python": "3.13.17",
+    "system": "Linux 6.18",
+    "elapsed_seconds_approx": 13.7,
+    "initial_sets": 131064,
+    "set_leak_scenarios": 1966072,
+    "size_optima": 147,
+    "deadline_optima": 147
+  },
+  "reported_independent_c": {
+    "min_n": 3,
+    "max_n": 22,
+    "mismatches": 0,
+    "quoted_initial_sets_approx": 6290000,
+    "quoted_scenarios_approx": 136000000,
+    "source_received": false,
+    "build_command_received": false,
+    "raw_output_received": false,
+    "source_and_output_hashes_received": false,
+    "executed_here": false
+  },
+  "theoretical_counts_if_all_labeled_sets_and_leaks_enumerated": [
+    {
+      "min_n": 3,
+      "max_n": 16,
+      "initial_sets": 131064,
+      "set_leak_scenarios": 1966072
+    },
+    {
+      "min_n": 3,
+      "max_n": 20,
+      "initial_sets": 2097144,
+      "set_leak_scenarios": 39845880
+    },
+    {
+      "min_n": 21,
+      "max_n": 22,
+      "initial_sets": 6291456,
+      "set_leak_scenarios": 136314880
+    },
+    {
+      "min_n": 3,
+      "max_n": 22,
+      "initial_sets": 8388600,
+      "set_leak_scenarios": 176160760
+    }
+  ],
+  "count_interpretation": "Resolved by the supplied v0.3 report: quoted approximate totals were n=21,22 only; cumulative n=3..22 is 8,388,600 sets and 176,160,760 scenarios. Raw logs remain unreceived.",
+  "evidence_independently_authenticated": false,
+  "human_peer_review_claimed": false,
+  "windows_execution_reported": false,
+  "report_table_vs_body_range_issue": "Table says both implementations through n=22; body explicitly records Python through n=16 and C through n=22. No Python n=22 run authenticated.",
+  "supplied_text_file_sha256": "f50b66dc7809252e9bc1987c993a6c189d7b90f334dabdc586b51f1daccbb76b",
+  "reporter_count_correction": {
+    "received_on": "2026-10-26",
+    "source": "AUDIT_V03_SUPPLIED_JA.md",
+    "status": "RESOLVED_AS_REPORTED_LABEL_ERROR",
+    "cumulative_n_3_to_22": {
+      "initial_sets": 8388600,
+      "set_leak_scenarios": 176160760
+    },
+    "additional_n_21_22": {
+      "initial_sets": 6291456,
+      "set_leak_scenarios": 136314880
+    },
+    "raw_log_authentication": "NOT_PERFORMED; LOGS_NOT_RECEIVED"
+  }
+}

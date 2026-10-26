@@ -1,0 +1,284 @@
+{
+  "retrieved_on": "2026-10-26",
+  "scope": "Selected primary versions for fixed leaks, parallel time, equivalent leak variants and known path-capacity optimization; not an exhaustive literature audit",
+  "novelty": "INCONCLUSIVE",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Leaky Forcing: A New Variation of Zero Forcing",
+      "authors": [
+        "Shannon Dillman",
+        "Franklin Kenter"
+      ],
+      "url": "https://arxiv.org/html/1910.00168v1",
+      "inspected": "Author preprint HTML; definition and cycle subsection 3.3",
+      "supports": "Established leak rule and two-adjacent-seed robustness",
+      "limitation": "Not a full-text comparison with the later 2024 journal version"
+    },
+    {
+      "id": "S1_final",
+      "title": "Leaky forcing: a new variation of zero forcing",
+      "authors": [
+        "Joseph S. Alameda",
+        "Shannon Dillman",
+        "Franklin Kenter"
+      ],
+      "journal": "Australasian Journal of Combinatorics 88(3) (2024), 308-326",
+      "url": "https://ajc.maths.uq.edu.au/pdf/88/ajc_v88_p308.pdf",
+      "inspected": "19-page final journal PDF obtained; model and Section 3.3 Proposition 3.4, p.313, and closing section inspected",
+      "limitation": "Opposing-front mechanism is prior work; not a line-by-line audit of every cited result",
+      "retrieved_pdf": {
+        "pages": 19,
+        "bytes": 385239,
+        "sha256": "01fe9fd1469573417fdfe8ea243cd2546ed08d78eba54de668a122da89372a06",
+        "redistributed": false
+      },
+      "citation_location_check_file": "evidence/citation_checks.json",
+      "checked_pdf_pages": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "On leaky forcing and resilience",
+      "authors": [
+        "Joseph S. Alameda",
+        "Jurgen Kritschgau",
+        "Nathan Warnberg",
+        "Michael Young"
+      ],
+      "url": "https://arxiv.org/pdf/2008.06552",
+      "metadata_url": "https://arxiv.org/abs/2008.06552",
+      "inspected": "21-page author preprint; Theorems 2.3 and 2.5, Corollary 2.7",
+      "journal_doi": "10.1016/j.dam.2021.09.005",
+      "supports": "Possible-forces characterization and reversal construction for eventual robustness",
+      "limitation": "Preprint inspected; journal final-version equivalence unverified",
+      "retrieved_pdf": {
+        "pages": 21,
+        "bytes": 433699,
+        "sha256": "661259a4550ea26e1f8ac973aec047170a790363dca4272dc35e0f3214b05941",
+        "redistributed": false
+      },
+      "citation_location_check_file": "evidence/citation_checks.json",
+      "checked_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Generalizations of leaky forcing",
+      "authors": [
+        "Joseph S. Alameda",
+        "Jurgen Kritschgau",
+        "Michael Young"
+      ],
+      "url": "https://arxiv.org/pdf/2009.07073",
+      "metadata_url": "https://arxiv.org/abs/2009.07073",
+      "inspected": "12-page author preprint; introductory criteria and leak-variant equivalences",
+      "journal_doi": "10.4310/JOC.2023.v14.n4.a1",
+      "supports": "Eventual forcing equivalences; not used as a parallel-time theorem",
+      "limitation": "Delivered PDF body and footer dates differ; journal final-version comparison not done"
+    },
+    {
+      "id": "S4",
+      "title": "Leaky Forcing: Extending Zero Forcing Results to a Fault-Tolerant Setting",
+      "authors": [
+        "Beth Bjorkman",
+        "Lei Cao",
+        "Franklin Kenter",
+        "Ryan Moruzzi Jr.",
+        "Carolyn Reinhart",
+        "Violeta Vasilevska"
+      ],
+      "url": "https://arxiv.org/html/2508.02564v1",
+      "inspected": "Abstract, introduction, Proposition 2.1(3), preliminary definitions and criteria",
+      "supports": "Known cycle leaky forcing numbers and established rule",
+      "limitation": "Selected statements compared; no exhaustive claim about all cited timing literature"
+    },
+    {
+      "id": "S5_v1",
+      "title": "Fault Tolerant Zero Forcing",
+      "url": "https://arxiv.org/html/2509.07854v1",
+      "inspected": "Definitions 5.4-5.5 and cycle Proposition 5.7",
+      "supports": "A different model: an initial seed is removed",
+      "limitation": "No formula from this different model is used to prove the candidate"
+    },
+    {
+      "id": "S5_v4",
+      "title": "Vertex Fault Tolerant Zero Forcing",
+      "url": "https://arxiv.org/html/2509.07854v4",
+      "version_date": "2026-08-24",
+      "inspected": "Abstract and introduction explaining seed outages versus leaks",
+      "supports": "Explicit model distinction in a later version",
+      "limitation": "No assertion that v1 propagation section remains in v4"
+    },
+    {
+      "id": "S6",
+      "title": "Throttling positive semidefinite zero forcing propagation time on graphs",
+      "authors": [
+        "Joshua Carlson",
+        "Leslie Hogben",
+        "Jurgen Kritschgau",
+        "Kate Lorenzen",
+        "Michael S. Ross",
+        "Seth Selken",
+        "Vicente Valle Martinez"
+      ],
+      "url": "https://arxiv.org/pdf/1807.09404",
+      "preprint_url": "https://arxiv.org/abs/1807.09404",
+      "inspected": "20-page arXiv author PDF obtained; Section 6, Theorem 7.1 and Lemma 7.2 inspected",
+      "supports": "Throttling is an established objective; ordinary cycle results are prior art",
+      "limitation": "Author version inspected; word-for-word final-journal comparison not completed",
+      "retrieved_pdf": {
+        "pages": 20,
+        "bytes": 329805,
+        "sha256": "c27b4437b3ffe8563dd2651ab32ad311f75256d3601394685e29337f639d1f90",
+        "redistributed": false
+      },
+      "citation_location_check_file": "evidence/citation_checks.json",
+      "checked_pdf_pages": [
+        17,
+        19
+      ]
+    },
+    {
+      "id": "S7",
+      "title": "Leaky Forts and l-Leaky Forcing in Common t-Clique Unions of Complete Graphs",
+      "authors": [
+        "Xinjun Wang"
+      ],
+      "url": "https://www.researchgate.net/publication/405320126_Leaky_Forts_and_l-Leaky_Forcing_in_Common_t-Clique_Unions_of_Complete_Graphs",
+      "doi": "10.5281/zenodo.20378616",
+      "inspected": "Author-uploaded manuscript, graph family and Section 7 item 3",
+      "supports": "Prior use of leaky propagation time and leaky throttling terminology; further direction on a different family",
+      "limitation": "Not a claim that cycle timing is an established open problem; no peer-review assumption"
+    },
+    {
+      "id": "S8",
+      "title": "Variations of zero forcing and power domination",
+      "authors": [
+        "Joseph S. Alameda"
+      ],
+      "url": "https://dr.lib.iastate.edu/bitstreams/28143f00-c8d8-425e-b804-30c9515f256e/download",
+      "inspected": "89-page dissertation PDF obtained; TOC, full-text phrase searches, related Chapter 2/3 statements and conclusions, Chapter 6",
+      "limitation": "Not a line-by-line audit of every theorem or all cited sources",
+      "previous_id": "UNREAD_A",
+      "year": 2021,
+      "retrieved_pdf": {
+        "pages": 89,
+        "bytes": 618394,
+        "sha256": "dd34cc8f826315d23f1ef65acec5373fb779cd0748a40a04ccbc862fe85bef76",
+        "redistributed": false
+      }
+    },
+    {
+      "id": "S9",
+      "title": "Leaky Forcing in Graphs for Resilient Controllability in Networks",
+      "authors": [
+        "Waseem Abbas"
+      ],
+      "author_page_url": "https://www.wabbas.com/publications.html",
+      "inspected": "12-page 2024 accepted author version obtained; model equivalence, leader selection, Sections V/VI and closing discussion",
+      "limitation": "Not a final-journal word-for-word comparison; distinct from the 8-page ACC 2023 preprint",
+      "previous_id": "UNREAD_B",
+      "url": "https://nebula.wsimg.com/d5a821f19bfaa9b030f79462cd457d3c?AccessKeyId=DC23973FEA94075ABCF3&alloworigin=1&disposition=0",
+      "doi": "10.1109/TCNS.2024.3457582",
+      "retrieved_pdf": {
+        "pages": 12,
+        "bytes": 1856513,
+        "sha256": "015e82f8ae709bc592404786839c0350885c2277c61173132169fdc69bc24dad",
+        "redistributed": false
+      }
+    },
+    {
+      "id": "S10",
+      "title": "Throttling zero forcing propagation speed on graphs",
+      "authors": [
+        "Steve Butler",
+        "Michael Young"
+      ],
+      "url": "https://ajc.maths.uq.edu.au/pdf/57/ajc_v57_p065.pdf",
+      "journal": "Australasian Journal of Combinatorics 57 (2013), 65-71",
+      "inspected": "7-page final journal PDF; Section 2, pp.66-68: chain capacity, path construction, weighted framework",
+      "supports": "Known path capacity and optimization framework; No41 algebraic reduction is our derivation",
+      "limitation": "Not a claim that this source literally states the No41 leak formula",
+      "retrieved_pdf": {
+        "pages": 7,
+        "bytes": 104569,
+        "sha256": "f90ebd4876ae3bbcbde3cf326606a8b2b89cc6a6cb6df2fe151932be4586fe18",
+        "redistributed": false
+      },
+      "citation_location_check_file": "evidence/citation_checks.json",
+      "checked_pdf_pages": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "S11",
+      "title": "Leaky Positive Semidefinite Forcing on Graphs",
+      "url": "https://arxiv.org/pdf/2312.10154v2",
+      "doi": "10.2140/involve.2025.18.719",
+      "inspected": "16-page arXiv v2 author draft; model, graph families, conclusion",
+      "limitation": "Different PSD rule; 2025 final journal text not compared"
+    },
+    {
+      "id": "S12",
+      "title": "Sharp Edge-Edit Bounds at Every Level for Leaky Positive Semidefinite Forcing",
+      "authors": [
+        "Domenico Frijio"
+      ],
+      "url": "https://arxiv.org/html/2609.22804",
+      "inspected": "Primary HTML main statements and scope; cardinality changes under edge edits",
+      "limitation": "Not a same-model timing theorem; no global literature exclusion"
+    },
+    {
+      "id": "S13",
+      "title": "Leaky Zero Forcing on Induced Subgraphs of d-dimensional Grid Graphs with an Application to Hopi Rectangles",
+      "authors": [
+        "Ryan Moruzzi Jr",
+        "Sagar Shah",
+        "Aaditeya Tripathi"
+      ],
+      "url": "https://arxiv.org/html/2509.21529v2",
+      "version_date": "2026-02-12",
+      "inspected": "Primary HTML: scope, main cardinality statements and conclusion",
+      "supports": "Leaky forts and minimum forcing numbers on grid-induced subgraphs and Hopi rectangles",
+      "limitation": "No same fixed-set cycle-time theorem identified in inspected statements; not proof of absence"
+    },
+    {
+      "id": "S14",
+      "title": "Propagation time for zero forcing on a graph",
+      "authors": [
+        "Leslie Hogben",
+        "My Huynh",
+        "Nicole Kingsley",
+        "Sarah Meyer",
+        "Shanise Walker",
+        "Michael Young"
+      ],
+      "url": "https://arxiv.org/pdf/1410.4191v1",
+      "doi": "10.1016/j.dam.2012.04.003",
+      "inspected": "17-page author PDF; Definition 1.1 and Remark 1.8, PDF pp.2-3",
+      "supports": "Established simultaneous-time definition and at-least-one-force counting principle",
+      "limitation": "Printed 2018 body date vs 2014 arXiv record; final journal word-for-word comparison not completed; no literal fixed-leak time theorem claimed",
+      "retrieved_pdf": {
+        "pages": 17,
+        "bytes": 460276,
+        "sha256": "63cb5e2d5578b726e110867f2fecfcf32cba5d75ab6f04418849af1b55a7124e",
+        "redistributed": false
+      },
+      "citation_location_check_file": "evidence/citation_checks.json",
+      "checked_pdf_pages": [
+        3
+      ]
+    }
+  ],
+  "third_party_full_texts_redistributed": false,
+  "source_pdf_byte_hashes_available": true,
+  "citation_location_checks": "PASS_SELECTED_LOCATIONS_AUTHOR_SIDE",
+  "overall_reference_comparison": "PARTIAL",
+  "historical_novelty": "INCONCLUSIVE"
+}
